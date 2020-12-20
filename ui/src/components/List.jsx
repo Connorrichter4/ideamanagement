@@ -4,7 +4,7 @@ import { DataGrid } from "@material-ui/data-grid";
 import axios from "axios";
 import { baseUrl } from "../utils/CommonUtils";
 import AddIdea from "../modals/AddIdea";
-import CustomSnackBar from "../modals/CustomSnackBar";
+import CustomSnackBar from "../modals/CustomSnackBar1";
 
 const columns = [
   { field: "ideaName", headerName: "Idea Name", width: 130 },
